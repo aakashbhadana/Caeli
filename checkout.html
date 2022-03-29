@@ -68,46 +68,6 @@
         </div>
     </div>
     </div>
-    <div id="checkoutscreen" style="margin-top: 70px;margin-bottom: 0px; display: none;">
-        <div class="container">
-            <div class="row">
-                <div class="col col-md-3"></div>
-                <form id="checkoutform" method="POST" action="pay.php?checkout=manual">
-                <div class="col text-center col-md-6" style="background-color: #f8f8f8;padding: 10px;padding-bottom: 40px;margin: auto;"><span style="font-size: 36px;line-height: 80px;">
-                    <i onclick="$('#checkoutscreen').hide();$('#bagscreen').fadeIn()" class="fas fa-arrow-left" style="float: left;margin-top: 30px;margin-left: 30px;font-size: 28px;cursor: pointer;"></i>
-                    <strong>Checkout &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong><br></span>
-                    <p style="margin: 10px;font-size: 12px;line-height: 18px;">Powered by<br><img src="assets/img/secure.png" style="width: 120px;margin-top: 5px;"><br></p>
-                    <div id="alert" class="alert alert-danger" role="alert" style="margin-top: 30px;display: none;">
-                        
-                      </div>
-                    <div style="margin-top: 60px;">
-                        <p style="margin-top: 16px;margin-bottom: 16px;"></p>
-                        
-                        <input id="fname" name="fname" class="border rounded" type="text" style="padding: 8px;padding-left: 12px;margin: 5px;" placeholder="First Name" autofocus="" required>
-                        <input name="lname" id="lname" class="border rounded" type="text" required="" style="padding: 8px;padding-left: 12px;margin: 5px;" placeholder="Last Name">
-                        <input name="phone" id="phone" class="border rounded" type="text" required="" style="padding: 8px;padding-left: 12px;margin: 5px;" placeholder="Phone">
-                        <input name="email" id="email" class="border rounded" type="text" required="" style="padding: 8px;padding-left: 12px;margin: 5px;" placeholder="Email">
-                        
-                        <p style="margin-top: 16px;margin-bottom: 16px;"><span style="font-size: 14px;line-height: 22px;">Shipping Address</span></p>
-                        
-                        <input name="company" id="company" class="border rounded" type="text" style="padding: 8px;padding-left: 12px;margin: 5px;" placeholder="Company (optional)">
-                        <input name="add1" id="add1" class="border rounded" type="text" required="" style="padding: 8px;padding-left: 12px;margin: 5px;" placeholder="Address Line 1">
-                        <input name="add2" id="add2" class="border rounded" type="text" style="padding: 8px;padding-left: 12px;margin: 5px;" placeholder="Address Line 2">                    
-                        <input name="city" id="city" class="border rounded" type="text" required="" style="padding: 8px;padding-left: 12px;margin: 5px;" placeholder="City">
-                        <input name="state" id="state" class="border rounded" type="text" required="" style="padding: 8px;padding-left: 12px;margin: 5px;" placeholder="State">
-                        <input name="pincode" id="pincode" class="border rounded" type="text" required="" style="padding: 8px;padding-left: 12px;margin: 5px;" placeholder="Zip Code">
-                        <select name="country" id="country" class="border rounded custom-select" style="width: 205px;margin: 5px;" required=""><option value="undefined" selected="">Country</option><option value="in">India</option></select>
-                        <input type="hidden" name="qty" id="qty" value="1">
-                        <input type="hidden" name="items" id="items" value="1">
-                        <div style="margin-top: 20px;margin-bottom: 20px;"><button class="btn btn-primary" type="button" onclick="checkout()" style="padding-top: 10px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;font-size: 22px;width: 80%;">Pay</button>
-                        </div>
-                        </div>
-                    </div>
-                </form>
-            <div class="col col-md-3"></div>
-        </div>
-    </div>
-    </div>
     <div class="modal fade" role="dialog" tabindex="-1" id="demo">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
